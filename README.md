@@ -1,4 +1,6 @@
-<header>
+interface GlobalRunKit {
+    createNotebook: (options: EmbedOptions) => NotebookEmbed
+}
 
 # Hello GitHub Actions
 
